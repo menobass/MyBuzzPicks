@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Must Reads</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="icons/bee_icon_48x48.png" alt="MyBuzzPicks Icon" width="32" height="32">
+      <h1>MyBuzzPicks</h1>
+      <div style="margin-top: 10px;">
+        <button id="addUserBtn">+ Add User</button>
+        <button id="deleteUserBtn">- Delete User</button>
+      </div>
+    </header>
+    <div id="addUserForm" class="hidden">
+      <input type="text" id="addUsernameInput" placeholder="Enter Hive username">
+      <button id="saveAddUserBtn">Save</button>
+    </div>
+    <div id="deleteUserForm" class="hidden">
+      <input type="text" id="deleteUsernameInput" placeholder="Enter Hive username to delete">
+      <button id="saveDeleteUserBtn">Delete</button>
+    </div>
+    <ul id="postList"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

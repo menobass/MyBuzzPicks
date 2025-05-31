@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#userForm {
+  margin-top: 10px;
+}
+.hidden {
+  display: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+.title {
+  font-weight: bold;
+}
+.tag {
+  font-size: 0.8em;
+  color: #666;
+}
